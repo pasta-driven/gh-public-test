@@ -1,17 +1,43 @@
-# Site settings
-title: My Awesome Site
-description: This is my personal website.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/'
+permalink: pretty
+title: 'Dr. Julian Pott - Systemisches Coaching mit Herz und Verstand'
 
-# Build settings
-markdown: kramdown
-theme: minima
+logo:
+  mobile: "images/lotus-logo.png"
+  mobile_height: "32px"
+  mobile_width: "32px"
+  desktop: "images/lotus-logo.png"
+  desktop_height: "32px"
+  desktop_width: "32px"
+
+home: 
+  limit_services: 6
+
+collections:
+  services:
+    output: true
+    sort_by: weight
+  team:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
 plugins:
-  - jekyll-feed
+  - jekyll-environment-variables
 
-# Exclude from processing.
-# The following items will not be processed, by default.
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -20,3 +46,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

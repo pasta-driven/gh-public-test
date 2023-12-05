@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Ressourcenorientierung",
+    "description": "Die Wertschätzung Ihrer charakteristischen Ecken und Kanten ebnet den Weg zur Gestaltung Ihres einzigartigen Lebens.",
+    "image": {
+      "url": "images/lotus-logo.png",
+      "width": 80px,
+      "height": 80px
+    }
+  },
+  {
+    "title": "Sichere Umgebung",
+    "description": "Erfahren Sie die Kraft einer sicheren Umgebung, in der Sie ganz sie selbst sein können und Ihre Potenziale aufblühen.",
+    "image": {
+      "url": "images/enso-no-bg.png",
+      "width": 80px,
+      "height": 80px
+    }
+  },
+  {
+    "title": "DBVC zertifiziert",
+    "description": "Klienten sollen sich auf die Qualität eines Coachings verlassen könen.
+     Deshalb bin ich <a href='https://www.dbvc.de/'>DBVC</a> zertifizierter Associate Coach.",
+    "image": {
+      "url": "images/features/dbvc-logo.svg",
+      "width": 80px,
+      "height": 80px
+    }
+  }
+]

@@ -1,17 +1,14 @@
 ---
-layout: default
-title: Home
+title: Julian Pott Coaching
+layout: home
+description: Systemisches Coaching mit Herz und Verstand - Damit Veränderung nachhaltig gelingt.
+intro_image: "images/profil.jpeg"
+intro_image_absolute: true
+intro_image_hide_on_mobile: true
+show_call_box: true
 ---
 
-# Welcome to My Website
+# Mit Herz und Verstand
 
-Hello, a web developer, writer, and enthusiast of all things tech.
-
-## About Me
-
-I love building things and writing about technology. In this site, you'll find my blog posts, projects, and more about my professional journey.
-
-### Recent Blog
-## Contact Me
-
-Feel free to reach out to me on
+Entdecken Sie, wie Emotionen die Qualität Ihrer Entscheidungen verbessern.
+Ob Sie Ihr persönliches Wachstum vorantreiben oder Ihre Organisation weiterentwickeln wollen – ich begleite Sie auf diesem Weg.

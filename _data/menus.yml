@@ -1,0 +1,28 @@
+main:
+  - name: "Dienstleistungen"
+    url: "/leistung/"
+    weight: 2
+#   - name: "Blog"
+#     url: "/blog/"
+#     weight: 3
+  - name: "Über mich"
+    url: "/about/"
+    weight: 4
+  - name: "Kontakt"
+    url: "/kontakt/"
+    weight: 5
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Kontakt"
+    url: "/kontakt/"
+    weight: 2
+  - name: "Impressum"
+    url: "/impressum/"
+    weight: 3
+  - name: "Datenschutz"
+    url: "/datenschutz/"
+    weight: 4
+  
